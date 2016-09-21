@@ -7,7 +7,7 @@
 	$message = @trim(stripslashes($_POST['message'])); 
 
 	$email_from = $email;
-	$email_to = 'v.f.diehl@gmail.com';//replace with your email
+	$email_to = 'semana.academica.ti@gmail.com';
 
 	$body = 'Nome: ' . $name . "\n\n" . 'Email: ' . $email . "\n\n" . 'Mensagem: ' . $message;
 
