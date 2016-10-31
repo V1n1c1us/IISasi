@@ -68,7 +68,7 @@
 			$container.imagesLoaded( function(){
 				$container.show();
 				$container.isotope({
-					filter:'*',
+					filter:'.dia1',
 					layoutMode:'masonry',
 					animationOptions:{
 						duration:750,
